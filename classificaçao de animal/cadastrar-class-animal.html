@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRAR CLASSIFICAÇAO DE ANIMAL</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark"></nav>
+        <div class="container">
+            <a href="#" class="navbar-brand">Cadastrar classificaçao de animal</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1>Cadastrar Classificação do animal</h1>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="nomeGrupo">Nome do Grupo</label>
+                    <select id="nomeGrupo" class="form-control">
+                        <option selected>Escolher...</option>
+                        <option>Grupo 1</option>
+                        <option>Grupo 2</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="fase">Fase</label>
+                    <select id="fase" class="form-control">
+                        <option selected>Escolher...</option>
+                        <option>Fase 1</option>
+                        <option>Fase 2</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="sexo">Sexo</label>
+                    <select id="sexo" class="form-control">
+                        <option selected>Escolher...</option>
+                        <option>Macho</option>
+                        <option>Femea</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="delimitacaoGrupo">Delimitação do Grupo</label>
+                    <select id="delimitacaoGrupo" class="form-control">
+                        <option selected>Escolher...</option>
+                        <option>Delimitação 1</option>
+                        <option>Delimitação 2</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="descricaoGrupo">Descrição do Grupo</label>
+                    <textarea class="form-control" id="descricaoGrupo" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="producaoMinima">Produção de Leite Mínima</label>
+                    <input type="number" class="form-control" id="producaoMinima">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="producaoMaxima">Produção de Leite Máxima</label>
+                    <input type="number" class="form-control" id="producaoMaxima">
+                </div>
+            </div>
+            <button type="button" class="btn btn-secondary">Voltar</button>
+            <button type="submit" class="btn btn-success">Salvar</button>
+        </form>
+    </div>

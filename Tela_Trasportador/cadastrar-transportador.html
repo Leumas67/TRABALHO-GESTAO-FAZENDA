@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRAR TRANSPORTADOR</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="card text-center" style="background-color: green;">
+        <div class="card-body">
+          <h5 class="card-title" style="color: white">Cadastro de Transportador</h5>
+        </div>
+      </div>
+    <div class="container" style="font-weight: bold;">
+        <br><br>
+        <hr>
+        <div class="row">
+            <div class="form-group col-4">
+                <label>Nome *</label>
+                <input type="text" class="form-control" placeholder="Transperola">
+            </div>
+            <div class="form-group col-4">
+                <label>CPF/CNPJ</label>
+                <input type="text" class="form-control" placeholder="00.111.222/0001-33">
+            </div>
+            <div class="form-group col-4">
+                <label>Inscrição Estadual:</label>
+                <input type="text" class="form-control" placeholder="9228289200">
+            </div>                      
+        </div>
+        <div class="row" style="margin-top: 50px;">
+            <div class="form-group col-3">
+                <label>CEP</label> 
+                <input type="text" class="form-control" placeholder="77777-777">
+            </div>
+            <div class="form-group col-2">
+                <label>Estado</label>
+                <select class="form-control">
+                    <option value="">--Selecionar--</option>
+                    <option value="1">Rondônia</option>
+                    <option value="1">Roraima</option>
+                </select>
+            </div>
+            <div class="form-group col-2">
+                <label>Cidade</label>
+                <select class="form-control">
+                    <option value="">--Selecionar--</option>
+                    <option value="1">Ji-Paraná</option>
+                    <option value="1">Boa Vista</option>
+                </select>
+            </div>
+            <div class="form-group col-2">
+                <label>Rua</label>
+                <input type="text" class="form-control" placeholder="Rua das Flores">
+            </div>
+            <div class="form-group col-3">
+                <label>Bairro</label>
+                <input type="text" class="form-control" placeholder="Centro">
+            </div>
+            <br></br>
+           <div class="row" style="margin-top: 80px;">
+            <div class="form-group col-12">
+            <button type="submit" class="btn btn-danger" id="cancelar" style="width: 20%;">
+                Voltar <i class="bi bi-save"></i>
+             </button>
+            <button type="submit" class="btn btn-success" id="salvar" style="width: 20%; margin-left: 3%;">
+                Salvar <i class="bi bi-save"></i>
+            </button>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
