@@ -1,0 +1,30 @@
+.logo{
+    width: 100px;
+    height: 110px;
+}
+.topo{
+    display: flex;
+    align-items: center;
+}
+header{
+    background-color: rgb(151, 212, 151);
+    position: sticky;
+    width: 100%;
+    top: 0px;
+}
+.opcoes{
+    margin-left: auto;
+}
+.opcoesul{
+    list-style: none;
+}
+.opcoes ul li{
+    display: inline;
+    color: white;
+    font-size: 1.3em;
+    padding: 15px;
+}
+.opcoes ul li a{
+    text-decoration: none;
+    color: white;
+}

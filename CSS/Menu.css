@@ -1,0 +1,67 @@
+.page{
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+}
+.slidebar{
+    background-color: rgb(27, 67, 50);
+    display: flex;
+    padding: 10px;
+    
+}
+.logo{
+    width: 100px;
+    height: 110px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+
+    color:white;
+}
+a:hover{
+    color:white;
+}
+@media (min-width: 640px) {
+    .page{
+        flex-direction:row;
+    }
+    .slidebar{
+        
+        width: auto;
+        display:block;
+        position: sticky;
+        top: 0;
+    }
+}
+.H5{
+    width: 400px;
+    right: 400px;
+    margin-left: 50px;
+ 
+}
+.Leite{
+   color: rgb(82, 183, 136);
+   margin-top: 30px;
+   margin-left: 50px;
+}
+.texto{
+    margin-top: 13px;
+    margin-left: 30px;
+}
+.segundaimg{
+    color: rgb(82, 183, 136);
+    width: 400px;
+    right: 400px;
+    margin-left: 150px;
+    
+}
+.todohome{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
